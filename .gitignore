@@ -119,4 +119,20 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+
+# Tomcat server configuration files
+.settings/org.eclipse.wst.server.core.prefs
+.settings/org.eclipse.jst.server.tomcat.core.prefs
+
+# Web-related build artifacts
+/build/
+/WebContent/WEB-INF/lib/
+/WebContent/WEB-INF/classes/
+
+# Common for modern web development (if you use tools like npm)
+node_modules/
+dist/
+.DS_Store
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
